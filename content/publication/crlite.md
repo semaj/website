@@ -23,7 +23,7 @@ publication_short = "Oakland"
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+abstract_short = "IEEE Cybersecurity Award for Innovation"
 
 # Featured image thumbnail (optional)
 image_preview = ""
