@@ -30,6 +30,6 @@ I'm a first-year PhD student studying at Harvard. I work with [James Mickens](ht
 I'm particularly interested in distributed systems and security. 
 More specifically, designing sytems which can democratize both control and security. 
 
-When I'm not in the lab you can finding me reading, playing piano, or exercising.
+When I'm not in the lab you can find me reading or playing the piano.
 </br></br>
 </br>
