@@ -23,8 +23,9 @@ weight = 5
  
 +++
 
-</br></br>
-Hello! I'm a first-year PhD student studying at Harvard. I work with [James Mickens](https://mickens.seas.harvard.edu/research).
+# About Me 
+
+I'm a first-year PhD student studying at Harvard. I work with [James Mickens](https://mickens.seas.harvard.edu/research).
 
 I'm particularly interested in distributed systems and security. 
 More specifically, designing sytems which can democratize both control and security. 
