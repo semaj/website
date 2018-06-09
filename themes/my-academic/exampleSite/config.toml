@@ -6,13 +6,13 @@
 baseurl = "/"
 
 # Title of your site
-title = ""
+title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018"
 
-theme = "my-academic"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -43,22 +43,22 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "ocean"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "default"
 
   # Your details.
-  name = "James Larisch"
-  role = "PhD Candidate, Computer Science"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Harvard University", url = "https://www.seas.harvard.edu/" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "mejapantowercropped.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "test@example.org"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
@@ -217,27 +217,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:james@jameslarisch.com"
-
-  [[params.social]]
-    icon = "edit"
-    icon_pack = "fa"
-    link = "//blog.jameslarisch.com"
+    link = "mailto:test@example.org"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/dysrupti0n"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "//scholar.google.com/citations?user=FPoylhsAAAAJ&hl=en"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/semaj"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
@@ -258,25 +253,25 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-#[[menu.main]]
-  #name = "Talks"
-  #url = "#talks"
-  #weight = 3
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
 
-#[[menu.main]]
-  #name = "Work"
-  #url = "#work"
-  #weight = 4
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
 
-#[[menu.main]]
-  #name = "Teaching"
-  #url = "#teaching"
-  #weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
 
-#[[menu.main]]
-  #name = "Contact"
-  #url = "#contact"
-  #weight = 6
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
